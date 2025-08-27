@@ -52,7 +52,7 @@ fig <- plot_ly() %>%
   ) %>%
   layout(
     title = list(
-      text = "Ted Cruz Policy Ratings by Issue",
+      text = "Ted Cruz Ratings by Issue",
       font = list(family = "Georgia", size = 22, color = "#000000"),
       x = .5,
       xanchor = "center"
@@ -81,14 +81,14 @@ fig <- plot_ly() %>%
     annotations = list(
       list(
         x = 0.5, 
-        y = -0.2,
-        text = "Hover over a bar to see the organization, its summary, and what the score suggests about the stance.",
+        y = -0.17,
+        text = "Hover over a bar to see the organization that calculated the rating, its summary, and what the score suggests about the politician's stance.",
         xref = "paper", 
         yref = "paper",
         showarrow = FALSE,
         xanchor = "center",
         yanchor = "top",
-        font = list(family = "Times New Roman", size = 12, color = "#000000")
+        font = list(family = "Times New Roman", size = 14, color = "#000000")
       )
     )
   )
